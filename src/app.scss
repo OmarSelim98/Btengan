@@ -1,0 +1,40 @@
+$header :  #111d5e;
+$mainBck : #b21f6657;
+$item : #fe346da2;
+.container {
+    font-family: 'Cairo', sans-serif;
+    display :flex;
+    flex-flow: column ;
+    color:white;
+    
+    .header {
+        flex : 1 100%;
+        padding:10px;
+        background-color: $header;
+        font-size: 2.4rem;
+    }
+    .main{
+        
+       
+        ul{
+            background-color: $mainBck;
+            margin : 5px ;
+            padding:5px;
+            border-radius: 5px;
+            list-style-type: none;
+            .title{
+                font-size: 2rem;
+            }
+            .list{
+                margin-left: 15px;
+                li{
+                    background-color: $item;
+                    padding: 5px;
+                    margin:5px 0 0 0;
+                    border-radius: 5px;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
